@@ -1,0 +1,18 @@
+td {
+    height:75px;
+    width:75px;
+    border:1px solid black;
+    font-size:40px;
+}
+
+#container {
+    width:70%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
