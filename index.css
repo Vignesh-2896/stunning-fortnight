@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 td {
     height:75px;
     width:75px;
@@ -5,14 +9,25 @@ td {
     font-size:40px;
 }
 
-#container {
+#game_board {
     width:70%;
-    margin-right:auto;
     margin-left:auto;
-    text-align: center;
+    margin-right:auto;
+    height:auto;
 }
 
-table {
-    margin-left:auto;
-    margin-right:auto;
+#game_choices {
+    margin:20px;
+}
+
+.game_choice_box{
+    height:50px;
+    width:180px;
+    border:1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin:15px;
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 20px;
 }
