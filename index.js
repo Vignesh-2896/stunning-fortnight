@@ -196,7 +196,7 @@ const displayController = (() => {
       tdObjectList = findBoxes(tdList);
     }
     tdObjectList.forEach(function (tdBox) {
-      tdBox.style.backgroundColor = "DodgerBlue";
+      tdBox.style.backgroundColor = "cornflowerblue";
     });
   };
 
