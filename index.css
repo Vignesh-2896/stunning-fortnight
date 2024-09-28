@@ -7,6 +7,7 @@ td {
   width: 75px;
   border: 1px solid black;
   font-size: 40px;
+  cursor: pointer;
 }
 
 #game_board {
@@ -29,5 +30,10 @@ td {
   margin: 15px;
   font-size: 18px;
   font-weight: 900;
-  padding-top: 20px;
+  cursor: pointer;
+  background-color: azure;
+}
+
+.game_choice_box:hover {
+  background-color: aliceblue;
 }
